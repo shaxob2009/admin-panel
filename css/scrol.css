@@ -1,0 +1,22 @@
+/* Butun scrollbarni uslub berish */
+::-webkit-scrollbar {
+  width: 12px; /* Scrollbar kengligi */
+  height: 12px; /* Gorizontal scrollbar balandligi */
+}
+
+/* Scrollbar yo‘lagini uslub berish */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Yo‘lakning foni */
+  border-radius: 10px; /* Yo‘lakning yumaloq burchaklari (ixtiyoriy) */
+}
+
+/* Scrollbarning siljiydigan qismini uslub berish */
+::-webkit-scrollbar-thumb {
+  background: rgb(2, 2, 178); /* Siljiydigan qismning rangi */
+  border-radius: 5px; /* Siljiydigan qismning yumaloq burchaklari (ixtiyoriy) */
+}
+
+/* Siljiydigan qismning ustiga kursor bilan kelganda uslubi */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Kursor ustiga kelganda siljiydigan qismning rangi */
+}
